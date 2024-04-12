@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include=".Generic\Enums\" />
+    <Folder Include=".Generic\Extensions\" />
+    <Folder Include="ApplicationLayer\.Interfaces\" />
+    <Folder Include="ApplicationLayer\Services\" />
+    <Folder Include="ApplicationLayer\Factories\" />
+    <Folder Include="ApplicationLayer\UseCases\" />
+    <Folder Include="ApplicationLayer\Events\" />
+    <Folder Include="DomainLayer\.Interfaces\" />
+    <Folder Include="DomainLayer\Events\" />
+    <Folder Include="DomainLayer\Services\" />
+    <Folder Include="DomainLayer\Aggregates\" />
+    <Folder Include="DomainLayer\Entities\" />
+    <Folder Include="DomainLayer\ValueObjects\" />
+    <Folder Include="InfrastructureLayer\.Interfaces\" />
+    <Folder Include="InfrastructureLayer\Events\" />
+    <Folder Include="InfrastructureLayer\Services\" />
+    <Folder Include=".Generic\Exceptions\" />
+    <Folder Include="InfrastructureLayer\Repositories\" />
+    <Folder Include=".Generic\.Interfaces\" />
+    <Folder Include=".Generic\" />
+  </ItemGroup>
+
+</Project>
